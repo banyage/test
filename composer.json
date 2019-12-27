@@ -1,0 +1,25 @@
+{
+  "name": "banyage/test",
+  "type": "library",
+  "description": "php stander lib",
+  "keywords" : ["banyage"],
+  "homepage" : "https://www.daya.fun/",
+  "license" : "Apache-2.0",
+  "authors": [
+    {
+      "name": "banyage",
+      "email": "dabanya@daya.fun"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Banyage\\": "src/"
+    }
+  }
+}
